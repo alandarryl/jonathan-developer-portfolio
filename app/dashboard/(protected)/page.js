@@ -9,6 +9,9 @@ import Skill from "@/models/Skill";
 import Experience from "@/models/Experience";
 import Message from "@/models/Message";
 
+// Force le rendu dynamique côté serveur lors des requêtes
+export const dynamic = "force-dynamic";
+
 async function getStats() {
   await connectDB();
   const [projects, skills, experiences, messages, unread] =
