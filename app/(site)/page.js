@@ -6,6 +6,8 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import Card from "@/components/ui/Card";
 import { getProfile, getProjects, getExperiences } from "@/lib/data";
 
+export const dynamic = "force-dynamic";
+
 export default async function HomePage() {
   const [profile, projects, experiences] = await Promise.all([
     getProfile(),

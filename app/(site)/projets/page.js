@@ -2,6 +2,8 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import ProjectCard from "@/components/site/ProjectCard";
 import { getProjects } from "@/lib/data";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Projets — Jonathan Okana",
 };

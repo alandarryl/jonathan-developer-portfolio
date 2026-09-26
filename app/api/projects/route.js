@@ -3,6 +3,8 @@ import { connectDB } from "@/lib/db";
 import Project from "@/models/Project";
 import { isAuthorized } from "@/lib/requireAuth";
 
+export const dynamic = "force-dynamic";
+
 function slugify(text) {
   return text
     .toString()
