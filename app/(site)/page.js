@@ -21,7 +21,7 @@ export default async function HomePage() {
     <>
       <Hero profile={profile} />
 
-      <section className="mx-auto max-w-content px-6 py-20">
+      <section className="mx-auto max-w-content px-6 py-10">
         <div className="grid gap-10 sm:grid-cols-3">
           <Card className="p-6">
             <p className="font-mono text-xs text-ink-400">Aujourd'hui</p>

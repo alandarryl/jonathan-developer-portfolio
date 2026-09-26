@@ -7,7 +7,7 @@ export default function Hero({ profile }) {
     <section className="relative overflow-hidden bg-blueprint">
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-ink-900 via-ink-900/70 to-ink-900" />
 
-      <div className="relative mx-auto max-w-content px-6 pb-20 pt-24 sm:pt-32">
+      <div className="relative mx-auto max-w-content px-6 pb-20 pt-10 sm:pt-16">
         <div
           className="mb-8 inline-flex items-center gap-2 rounded-full border border-ink-600 bg-ink-800/60 px-3.5 py-1.5 font-mono text-xs text-mint-300"
         >
